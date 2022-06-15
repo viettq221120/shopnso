@@ -363,6 +363,14 @@ article .container .container_page ul li{
     margin-left: 3px;
 }
 
+
+article .container .container_page ul .page_item:hover{
+    border-color: #32c5d2;
+    background: #32c5d2;
+    color: #fff;
+}
+
+
 article .container .container_page ul .page_link{
     border-color: #32c5d2;
     background: #32c5d2;
