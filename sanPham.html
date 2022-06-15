@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/sanPham.css">
+</head>
+<body>
+    <header>
+        <div class="web_icon">
+            <a href="https://www.facebook.com/profile.php?id=100026242358787"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
+            <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a>
+        </div>
+        <div class="web_phone">
+            <span style="color: #727d8c; font-size: 18px;">Hotline: </span><span class="phone">0338.564.698</span>
+        </div>
+    </header>
+    <nav>
+        <div class="web_nav">
+            <div class="web_logo">
+                <a href="index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="web_menu">
+                <ul>
+                    <li class="menu"><a href="index.html">TRANG CHỦ</a></li>
+                    <li class="menu"><a href="">RÚT XU</a></li>
+                    <li class="menu"><a href="">NẠP THẺ</a></li>
+                    <li class="menu"><a href="">NẠP ATM - VÍ</a></li>
+                    <li class="sign"><a href="sign_in.html"><button class="sign_in">ĐĂNG NHẬP</button></a></li>
+                    <li class="sign"><a href="sign_up.html"><button class="sign_up">ĐĂNG KÝ</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <article>
+        <div class="container">
+            <div class="container_infor">
+                <h2>NINJA SCHOOL</h2>
+                <p>
+                    <strong>- Mục bán Nick Ninja </strong>
+                    sẽ liên tục cập nhật những nick mới tại shop cho tất cả ae có thêm lựa chọn, Mọi nick trên shop đều có sim đăng ký
+                </p>
+                <p>
+                    <strong>Lưu ý: </strong>
+                    Khách hàng cần hỗ trợ hoặc khiếu nại vui lòng liên hệ fanpage ở góc phải màn hình
+                </p>
+            </div>
+            <div class="container_input">
+                <div class="contai_1">
+                    <span>Tìm kiếm</span>
+                    <div class="form_contro">
+                        <input type="text" placeholder="Tìm kiếm">
+                    </div>
+                </div>
+                <div class="contai_1">
+                    <span>Mã số</span>
+                    <div class="form_contro">
+                        <input type="text" placeholder="Mã số">
+                    </div>
+                </div>
+                <div class="contai_1">
+                    <span>Giá tiền</span>
+                    <div class="form_contro">
+                        <select>
+                            <option value="">Chọn giá tiền</option>
+                            <option value="">Dưới 50k</option>
+                            <option value="">Từ 50k - 200k</option>
+                            <option value="">Từ 200k - 500k</option>
+                            <option value="">Từ 500k - 1 Triệu</option>
+                            <option value="">Trên 1 Triệu</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="contai_1">
+                    <span>Trạng thái</span>
+                    <div class="form_contro">
+                        <select>
+                            <option value="">Tất cả</option>
+                            <option selected="selected" value="">Chưa bán</option>
+                            <option value="">Đã bán</option>
+                            <option value="">Dã đặt cọc</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="contai_1">
+                    <span>Server</span>
+                    <div class="form_contro">
+                        <select>
+                            <option value=""> -- Không chọn -- </option>
+                            <option value="">Bokken</option>
+                            <option value="">Shuriken</option>
+                            <option value="">Tessen</option>
+                            <option value="">Kunai</option>
+                            <option value="">Katana</option>
+                            <option value="">Tone</option>
+                            <option value="">Sanzu</option>
+                        </select>
+                    </div>
+                   
+                </div>
+                <div class="contai_1">
+                    <span>Class</span>
+                    <div class="form_contro">
+                        <select>
+                            <option value=""> -- Không chọn -- </option>
+                            <option value="">Tiêu </option>
+                            <option value="">Cung </option>
+                            <option value="">Kiếm </option>
+                            <option value="">Kunai </option>
+                            <option value="">Quạt </option>
+                            <option value="">Đao </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="contai_1">
+                    <span>TTGT</span>
+                    <div class="form_contro">
+                        <select>
+                            <option value=""> -- Không chọn -- </option>
+                            <option value="">Không </option>
+                            <option value="">Có</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="contai_1">
+                    <span>Sắp Xếp</span>
+                    <div class="form_contro">
+                        <select>
+                            <option value=""> -- Không chọn -- </option>
+                            <option value="">Nick mới nhất</option>
+                            <option value="">Nick cũ nhất</option>
+                            <option value="">Giá thấp đến cao</option>
+                            <option value="">Giá cáo đến thấp</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="contai_1">
+                    <button>Tìm kiếm</button>
+                    <a href="">Tất cả</a>
+                </div>
+            </div>
+            <div class="container_pad">
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM1.jpeg" alt="">
+                                    <span>MS: 28419</span>
+                                </a>
+                                <div class="name">Kiếm 110</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>110</b></div>
+                            <div class="row">Server: <b>Kunai</b></div>
+                            <div class="row">Class: <b>Kiếm</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                1,650,000
+                            </div>
+                            <div class="view">
+                                <a href="chiTietSanPham.html">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM2.jpeg" alt="">
+                                    <span>MS: 28418</span>
+                                </a>
+                                <div class="name">Tiêu 98</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>98</b></div>
+                            <div class="row">Server: <b>Kunai</b></div>
+                            <div class="row">Class: <b>Tiêu</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                1,200,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM3.jpg" alt="">
+                                    <span>MS: 28417</span>
+                                </a>
+                                <div class="name">...</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>70</b></div>
+                            <div class="row">Server: <b>Tessen</b></div>
+                            <div class="row">Class: <b>Quạt</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                430,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM4.jpg" alt="">
+                                    <span>MS: 28416</span>
+                                </a>
+                                <div class="name">Tieu 125 sv4 8stn soi tl5543 </div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>125</b></div>
+                            <div class="row">Server: <b>Kunai</b></div>
+                            <div class="row">Class: <b>Tiêu</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                1,450,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM5.jpg" alt="">
+                                    <span>MS: 28415</span>
+                                </a>
+                                <div class="name">...</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>103</b></div>
+                            <div class="row">Server: <b>Kunai</b></div>
+                            <div class="row">Class: <b>Đao</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                640,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM6.jpg" alt="">
+                                    <span>MS: 28414</span>
+                                </a>
+                                <div class="name">Quạt sv5 vk mcs học 11 sách ...</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>90</b></div>
+                            <div class="row">Server: <b>Katana</b></div>
+                            <div class="row">Class: <b>Quạt</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                1,400,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM7.jpg" alt="">
+                                    <span>MS: 28413</span>
+                                </a>
+                                <div class="name">Cung 110 sv1 học 11 sách sx tl54 ...</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>110</b></div>
+                            <div class="row">Server: <b>Kokken</b></div>
+                            <div class="row">Class: <b>Cung</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                850,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM8.jpg" alt="">
+                                    <span>MS: 28412</span>
+                                </a>
+                                <div class="name">Dao 130 sv2 vk16 mcs max skil910x ...</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>130</b></div>
+                            <div class="row">Server: <b>Shuriken</b></div>
+                            <div class="row">Class: <b>Đao</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                3,050,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM9.jpg" alt="">
+                                    <span>MS: 28411</span>
+                                </a>
+                                <div class="name">Tiêu 130 sv5 học stn sx tl6654 ...</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>Tiêu</b></div>
+                            <div class="row">Server: <b>Katana</b></div>
+                            <div class="row">Class: <b>Tiêu</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                1,450,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM10.jpg" alt="">
+                                    <span>MS: 28410</span>
+                                </a>
+                                <div class="name">Tieu 130 sv4 học 8stn 2skn sói ...</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>130</b></div>
+                            <div class="row">Server: <b>Kunai</b></div>
+                            <div class="row">Class: <b>Tiêu</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                1,850,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM11.jpg" alt="">
+                                    <span>MS: 28409</span>
+                                </a>
+                                <div class="name">Tiêu 115 sv3 học 11 sách 1b sói ...</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>113</b></div>
+                            <div class="row">Server: <b>Tessen</b></div>
+                            <div class="row">Class: <b>Tiêu</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                780,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM12.jpg" alt="">
+                                    <span>MS: 28408</span>
+                                </a>
+                                <div class="name">Kunai 90 sv1 vk mcs học 8stn sx ...</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>90</b></div>
+                            <div class="row">Server: <b>Bokken</b></div>
+                            <div class="row">Class: <b>Kunai</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                720,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM13.jpg" alt="">
+                                    <span>MS: 28407</span>
+                                </a>
+                                <div class="name">Tiêu 99 sv4 vk15 học 8stn soi tl ...</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>99</b></div>
+                            <div class="row">Server: <b>Kunai</b></div>
+                            <div class="row">Class: <b>Tiêu</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                1,400,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM14.jpg" alt="">
+                                    <span>MS: 28406</span>
+                                </a>
+                                <div class="name">Cung 130 sv1 vk16 mcs soi tl9966 ...</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>130</b></div>
+                            <div class="row">Server: <b>Bokken</b></div>
+                            <div class="row">Class: <b>Cung</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                2,800,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM15.jpg" alt="">
+                                    <span>MS: 28405</span>
+                                </a>
+                                <div class="name">Quạt 103 sv2 sx tl6666 học 11s ...</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>103</b></div>
+                            <div class="row">Server: <b>Shuriken</b></div>
+                            <div class="row">Class: <b>Quạt</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                1,280,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contai">
+                    <div class="classwith">
+                        <div class="col_3">
+                            <div class="image">
+                                <a href="">
+                                    <img src="img/ITEM16.jpg" alt="">
+                                    <span>MS: 28404</span>
+                                </a>
+                                <div class="name">Quạt 70 sv4 vk mcs học 8stn 1skn ...</div>
+                            </div>
+                        </div>
+                        <div class="attribute">
+                            <div class="row">Cấp độ: <b>70</b></div>
+                            <div class="row">Server: <b>Katana</b></div>
+                            <div class="row">Class: <b>Quạt</b></div>
+                            <div class="row">TTGT: <b>Không</b></div>
+                        </div>
+                        <div class="more">
+                            <div class="item">
+                                600,000
+                            </div>
+                            <div class="view">
+                                <a href="">CHI TIẾT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container_page">
+                <ul>
+                    <li class="page_item"><</li>
+                    <li class="page_link">1</li>
+                    <li class="page_item">2</li>
+                    <li class="page_item">3</li>
+                    <li class="page_item">4</li>
+                    <li class="page_item">5</li>
+                    <li class="page_item">6</li>
+                    <li class="page_item">7</li>
+                    <li class="page_item">8</li>
+                    <li class="page_item">...</li>
+                    <li class="page_item">74</li>
+                    <li class="page_item">75</li>
+                    <li class="page_item">></li>
+                </ul>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="prefooter">
+            <div class="container_1">
+                <p>
+                    <span style="color: #fff; font-size: 22px;"><strong>VỀ</strong></span>
+                    <span style="color:#16a085; font-size: 22px;"><strong>CHÚNG TÔI</strong></span>
+                </p>
+                <p style="color:#bdc3c7">Chuyên mua bán nick các game... an toàn. Tin cậy nhanh chóng. Giao dịch tự động 24/24</p>
+                <ul>
+                    <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a></li>
+                    <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a></li>
+                </ul>
+            </div>
+            <div class="container_2">
+                <h3>CHÚNG TÔI Ở ĐÂY</h3>
+                <p>
+                    Với 3 năm kinh nghiệm lĩnh vực game online, chúng tôi luôn đặt trải nghiệm khách hàng lên hàng đầu. Hãy đến với shop để có những trải nghiệm tuyệt vời nhất.
+                </p>
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                        
+                        <a href="">Việt Nam</a>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/></svg>
+                        
+                        <a href="">0977865293</a>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"/></svg>
+    
+                        <a href="">viettqps20232@fpt.edu.vn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="postfooter">
+            <div class="row">
+                <span>2022 © </span>
+                <a href="">CUNG CẤP DỊCH VỤ RẺ NHẤT CHO FANS VÀ KHÁCH HÀNG</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
